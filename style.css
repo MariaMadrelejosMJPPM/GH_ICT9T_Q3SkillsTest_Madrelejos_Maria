@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://www.nikkisplate.com/wp-content/uploads/2022/09/Sage-Green-Aesthetic-Wallpaper-16.png);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.white-box {
+    background-color: rgb(255, 255, 255,0.8); 
+    padding: 20px 40px;            
+    border-radius: 20px; 
+    border-color: #275137; 
+    border-style: dotted;
+    color: #09470b;  
+    display: inline-block; 
+    box-shadow: -1px 1px 17px 1px #325148;
+
+}
+
+.col {
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
